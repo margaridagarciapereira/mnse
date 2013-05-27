@@ -4,7 +4,7 @@
 <!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     
@@ -26,11 +26,11 @@
 	<div id="menu_lateral"> 
 		<nav id="nav_bar">
 			<ul>
-				<li> <a href="author.html"> Author </a></li>
+				<li> <a href="Author/index.html"> Author </a></li>
 				<br>
-				<li> <a href="map.html"> Map </a></li>
+				<li> <a href="Map/index.html"> Map </a></li>
 				<br>
-				<li> <a href="seasons.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"> Seasons </a>
+				<li> <a href="Seasons/index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"> Seasons </a>
 					<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 						<a href="#">Season 1</a>
 						<a href="#">Season 2</a>
@@ -38,7 +38,7 @@
 					</div>
 				</li>
 				<br>
-				<li> <a href="Books/books.html" onmouseover="mopen('m2')" onmouseout="mclosetime()"> Books </a>
+				<li> <a href="Books/index.html" onmouseover="mopen('m2')" onmouseout="mclosetime()"> Books </a>
 					<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 						<a href="Books/a_game_of_thrones.html">A Game of Thrones</a>
 						<a href="Books/a_clash_of_kings.html">A Clash of Kings</a>
@@ -50,7 +50,7 @@
 					</div>
 				</li>
 				<br>
-				<li> <a href="characters.html" onmouseover="mopen('m3')" onmouseout="mclosetime()"> Characters </a>
+				<li> <a href="Characters/index.html" onmouseover="mopen('m3')" onmouseout="mclosetime()"> Characters </a>
 					<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 						<a href="#">Arya Stark</a>
 						<a href="#">Bran Stark</a>
@@ -63,7 +63,7 @@
 						<a href="#">Robb Stark</a>
 						<a href="#">Sansa Stark</a>
 						<a href="#">Tyrion Lannister</a>
-						<a href="characters.html">All</a>
+						<a href="Characters/index.html">All</a>
 						<!--<a href="#">Eddard Stark</a>
 						<a href="#">Davos Seaworth</a>
 						<a href="#">Samwell Tarly</a>
@@ -80,7 +80,7 @@
 					</div>
 				</li>
 				<br>
-				<li> <a href="houses.html" onmouseover="mopen('m4')" onmouseout="mclosetime()"> Houses </a>
+				<li> <a href="Houses/index.html" onmouseover="mopen('m4')" onmouseout="mclosetime()"> Houses </a>
 					<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 						<a href="#">Arryn</a>
 						<a href="#">Baratheon</a>
@@ -94,7 +94,7 @@
 					</div>
 				</li>
 				<br>
-				<li> <a href="gallery.html"> Gallery </a></li>
+				<li> <a href="Gallery/index.html"> Gallery </a></li>
 				<br>
 				<li> <a href="#div2"> About Us </a></li>
 			</ul>
@@ -103,28 +103,28 @@
 	</div>
 
 
-	<embed name="sea" src="./sounds/sea_and_seagulls.mp3" loop="true" hidden="true" autostart="true">
+	<embed name="sea" src="./assets/sounds/sea_and_seagulls.mp3" loop="true" hidden="true" autostart="true">
 	
 	<div id="container"></div>
 	
-	<script src="./lib/three.js"></script>
-	<script src="./lib/Bird.js"></script>
-	<script src="./lib/Boid.js"></script>
-	<script src="./lib/render.js"></script>
-	<script src="./lib/javascript.js"></script>
+	<script src="./assets/lib/three.js"></script>
+	<script src="./assets/lib/Bird.js"></script>
+	<script src="./assets/lib/Boid.js"></script>
+	<script src="./assets/lib/render.js"></script>
+	<script src="./assets/lib/javascript.js"></script>
 	
     <div id="main_bar">
 		<p id="title">Game of Thrones</p>
 		<p id="slogan">" When you play the game of thrones you win or you die. "</p>
 	</div>
     
-    <!-- Javascript is here below -->
+    
 	
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"> </script>
     <script>!window.jQuery && document.write('<'+'script src="./lib/jquery-1.6.1.min.js"> </'+'script>'); </script>
-    <script src="./lib/mosaiqy-1.0.1.min.js" id="mosaiqy_tpl">
+    <script src="./assets/lib/mosaiqy-1.0.1.min.js" id="mosaiqy_tpl">
         <div>
-            <figure><a href="./images/zoom/${img}"><img src="./images/thumb/${img}">
+            <figure><a href="./assets/images/zoom/${img}"><img src="./assets/images/thumb/${img}">
               <figcaption>${desc}</figcaption></a>
             </figure>
         </div>

@@ -23,6 +23,46 @@
 </head>
 
 <body>
+	<div id="menu_lateral"> 
+		<nav id="nav_bar">
+			<ul>
+				<li> <a href="author.html"> Author </a></li>
+				<br>
+				<li> <a href="map.html"> Map </a></li>
+				<br>
+				<li> <a href="seasons.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"> Seasons </a>
+					<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="#">Season 1</a>
+						<a href="#">Season 2</a>
+						<a href="#">Season 3</a>
+					</div>
+				</li>
+				<br>
+				<li> <a href="books.html" onmouseover="mopen('m2')" onmouseout="mclosetime()"> Books </a>
+					<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="#">A Game of Thrones</a>
+						<a href="#">A Clash of Kings</a>
+						<a href="#">A Storm of Swords</a>
+						<a href="#">A Feast for Crows</a>
+						<a href="#">A Dance with Dragons</a>
+						<a href="#">The Winds of Winter</a>
+						<a href="#">A Dream of Spring</a>
+					</div>
+				</li>
+				<br>
+				<li> <a href="characters.html"> Characters </a></li>
+				<br>
+				<li> <a href="houses.html"> Houses </a></li>
+				<br>
+				<li> <a href="gallery.html"> Gallery </a></li>
+				<br>
+				<li> <a href="#div2"> About Us </a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+
 	<embed name="sea" src="./sounds/sea_and_seagulls.mp3" loop="true" hidden="true" autostart="true">
 	
 	<div id="container"></div>
@@ -37,25 +77,6 @@
 		<p id="title">Game of Thrones</p>
 		<p id="slogan">" When you play the game of thrones you win or you die. "</p>
 	</div>
-	
-	<nav id="nav_bar">
-		<ul>
-			<li> <a href="author.html"> Author </a></li>
-			<li> <a href="map.html"> Map </a></li>
-			<li> <a href="seasons.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"> Seasons </a>
-				<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-					<a href="#">Season 1</a>
-					<a href="#">Season 2</a>
-					<a href="#">Season 3</a>
-				</div>
-			</li>
-			<li> <a href="books.html"> Books </a></li>
-			<li> <a href="characters.html"> Characters </a></li>
-			<li> <a href="houses.html"> Houses </a></li>
-			<li> <a href="gallery.html"> Gallery </a></li>
-			<li> <a href="#div2"> About Us </a></li>
-		</ul>
-	</nav>
     
     <!-- Javascript is here below -->
 	

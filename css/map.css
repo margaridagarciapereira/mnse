@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../images/Map_of_Ice_and_Fire.jpg');
+	background-repeat: no-repeat;
+	//background-size: cover;
+	background-color: #fff;
+
+	margin: 0px;
+	padding: 0px;
+	width:2800px;
+	height:2500px;
+}
+
+#back {
+	background-color: rgba(3, 21, 45, 0.4);
+	width:200px;
+	margin-top: 50px;
+}
+
+#back img{
+	display: block;
+	margin:auto;
+}
+
+.clicable-item {
+	background-color: rgba(3, 21, 45, 0.2);
+	width:15px;
+	height:15px;
+}
+
+#winterfell {
+	margin-top: 392px;
+	margin-left: 414px;
+}
+
+#pyke {
+	margin-top: 478px;
+	margin-left: 192px;
+}
+
+#lannisport {
+	margin-top: 170px;
+	margin-left: 190px;
+}
+
+#riverrun {
+	margin-top: -130px;
+	margin-left: 360px;
+}
+
+#eyrie {
+	margin-top: -100px;
+	margin-left: 640px;
+}
+
+#dragonstone {
+	margin-top: 142px;
+	margin-left: 740px;
+}
+
+#kingslanding {
+	margin-top: 93px;
+	margin-left: 568px;
+}
+
+#highgarden {
+	margin-top: 149px;
+	margin-left: 318px;
+}

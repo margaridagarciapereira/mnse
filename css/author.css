@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background-color: #fff;
+	background: url('../images/author.jpg') no-repeat fixed;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	font-family: "TrajanPro";
+}
+
+#content {
+	color: rgba(255, 255, 255, 1.0);
+	position: absolute;
+	top: 5%; 
+	left: 5%;
+	width: 35%;
+}
+
+#content p {
+	text-indent: 3%;
+}

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../images/background_image.jpg');
+	background-repeat: no-repeat;
+	/*background-size: 100%;*/
+	background-color: #fff;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_bar {
+	background-color: rgba(3, 21, 45, 0.4);
+
+	position: absolute;
+	top: 100px;
+	height: 300px;
+	width: 840px;	
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main_bar #title {
+	font-size: 50px;
+	color: rgba(255, 255, 255, 1.0);
+	font-family: "TrajanusBricks";
+}
+
+#main_bar #slogan {
+	padding-top: 30px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+#div1 {
+	height: 50px;
+	background-color: #fff;
+}
+
+#div2 {
+	height: 500px;
+	background-color: rgba(3, 21, 45, 1.0); 
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 20px;
+}
+
+#nav_bar{
+	position: absolute;
+	top: 400px;
+	vertical-align: middle;
+	color: rgba(255, 255, 255, 1.0);
+	font-family: "TrajanPro";
+	font-size: 20px;
+}
+
+#nav_bar ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav_bar li{
+	list-style: none;
+	float: left;
+}
+
+#nav_bar ul li{
+	display: inline;
+	border-style:solid;
+	border-width:1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: rgba(3, 21, 45, 0.4);
+}
+
+#nav_bar li a {
+	display: block;
+	text-align: center;
+}
+
+#nav_bar ul li:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	height:auto;
+}
+
+#nav_bar ul li a:link{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#nav_bar ul li a:hover{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#nav_bar ul li a:visited {
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#nav_bar ul li a:active{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#nav_bar div { 
+	position: absolute;
+	visibility: hidden;
+	display:block;
+	margin: 0;
+}
+
+#nav_bar div a { 
+	position: relative;
+	display: block;
+	width: auto;
+	border-style:solid;
+	border-width:1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#nav_bar div a:hover{
+	background-color: rgba(3, 21, 45, 0.4);	
+}

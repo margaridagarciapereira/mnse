@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Game of Thrones</title>
+    
+    <script>
+    (function(doc) { 
+		doc.className = doc.className.replace(/(^|\b)no\-js(\b|$)/, 'js');
+    }(document.documentElement));
+    </script>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://jdbartlett.com/innershiv/innershiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<embed name="sea" src="./sounds/sea_and_seagulls.mp3" loop="true" hidden="true" autostart="true">
+	
+	<div id="container"></div>
+	
+	<script src="./lib/three.js"></script>
+	<script src="./lib/Bird.js"></script>
+	<script src="./lib/Boid.js"></script>
+	<script src="./lib/render.js"></script>
+	<script src="./lib/javascript.js"></script>
+	
+    <div id="main_bar">
+		<p id="title">Game of Thrones</p>
+		<p id="slogan">" When you play the game of thrones you win or you die. "</p>
+	</div>
+	
+	<nav id="nav_bar">
+		<ul>
+			<li> <a href="author.html"> Author </a></li>
+			<li> <a href="map.html"> Map </a></li>
+			<li> <a href="seasons.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"> Seasons </a>
+				<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+					<a href="#">Season 1</a>
+					<a href="#">Season 2</a>
+					<a href="#">Season 3</a>
+				</div>
+			</li>
+			<li> <a href="books.html"> Books </a></li>
+			<li> <a href="characters.html"> Characters </a></li>
+			<li> <a href="houses.html"> Houses </a></li>
+			<li> <a href="gallery.html"> Gallery </a></li>
+			<li> <a href="#div2"> About Us </a></li>
+		</ul>
+	</nav>
+    
+    <!-- Javascript is here below -->
+	
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"> </script>
+    <script>!window.jQuery && document.write('<'+'script src="./lib/jquery-1.6.1.min.js"> </'+'script>'); </script>
+    <script src="./lib/mosaiqy-1.0.1.min.js" id="mosaiqy_tpl">
+        <div>
+            <figure><a href="./images/zoom/${img}"><img src="./images/thumb/${img}">
+              <figcaption>${desc}</figcaption></a>
+            </figure>
+        </div>
+    </script>
+    
+    <div id="div2">
+        <div id="div1">
+        </div>
+        <p>Afonso Rosa</p>
+        <p>Margarida Pereira</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+	height: 100%;
+}
+
+.content {
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+}
+
+.season1 {
+	float: left;
+	background: black;
+}
+
+.season2 {
+	float: center;
+	background: red;
+}
+
+.season3 {
+	float: right;
+	background: white;
+}

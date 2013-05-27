@@ -98,6 +98,16 @@ body {
 	margin-left: 300px;
 }
 
+#stromsend {
+	margin-left: 630px;
+	margin-top: -73px;
+}
+
+#sunspear {
+	margin-top: 213px;
+	margin-left: 693px;
+}
+
 @keyframes flashing
 {
 	0% {background: rgba(3, 21, 45, 0);}

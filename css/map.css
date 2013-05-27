@@ -42,47 +42,76 @@ body {
 }
 
 .clicable-item {
-	background-color: rgba(3, 21, 45, 0.2);
-	width:15px;
-	height:15px;
+	background-color: rgba(3, 21, 45, 0.4);
+	border-radius: 50%;
+	width:50px;
+	height:50px;
+	animation:flashing 3s;
+	animation-iteration-count: infinite;
+	-webkit-animation:flashing 3s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.clicable-item a img{
+	border-radius: 50%;
+	width:50px;
+	height:50px;
 }
 
 #winterfell {
-	margin-top: 392px;
-	margin-left: 414px;
+	margin-top: 375px;
+	margin-left: 398px;
 }
 
 #pyke {
-	margin-top: 478px;
-	margin-left: 192px;
+	margin-top: 446px;
+	margin-left: 173px;
 }
 
 #lannisport {
-	margin-top: 170px;
-	margin-left: 190px;
+	margin-top: 132px;
+	margin-left: 170px;
 }
 
 #riverrun {
-	margin-top: -130px;
-	margin-left: 360px;
+	margin-top: -166px;
+	margin-left: 342px;
 }
 
 #eyrie {
-	margin-top: -100px;
-	margin-left: 640px;
+	margin-top: -132px;
+	margin-left: 622px;
 }
 
 #dragonstone {
-	margin-top: 142px;
-	margin-left: 740px;
+	margin-top: 106px;
+	margin-left: 722px;
 }
 
 #kingslanding {
-	margin-top: 93px;
-	margin-left: 568px;
+	margin-top: 60px;
+	margin-left: 550px;
 }
 
 #highgarden {
-	margin-top: 149px;
-	margin-left: 318px;
+	margin-top: 112px;
+	margin-left: 300px;
+}
+
+@keyframes flashing
+{
+	0% {background: rgba(3, 21, 45, 0);}
+	35% {background:rgba(3, 21, 45, 0.8);}
+
+	70% {background: rgba(3, 21, 45, 0.8);}
+	100% {background:rgba(3, 21, 45, 0);}
+}
+
+@-webkit-keyframes flashing /* Safari and Chrome */
+{
+	0% {background: rgba(3, 21, 45, 0);}
+	35% {background:rgba(3, 21, 45, 0.8);}
+
+	70% {background: rgba(3, 21, 45, 0.8);}
+	100% {background:rgba(3, 21, 45, 0);}
 }

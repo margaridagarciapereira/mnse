@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+
+#stark_house {
+	background-color: #ffffff;
+	color: #939393;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#stark_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #939393;
+}
+
+#stark_slogan {
+	padding-bottom: 100px;
+	color: #939393;
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+.body_body {
+	margin: 100px;
+	text-align: center;
+	margin-left: 250px;
+}
+
+.house_header {
+	display: inline;
+	font-size: 50px;
+	font-family: "TrajanusBricks";
+	margin: auto;
+}
+
+.house_header img {
+	width: 140px;
+}
+
+.vertical_men {
+	display: inline;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.vertical_banner {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.vertical_banner img {
+	height: 100%;
+}
+
+.vertical_retroc {
+	position: relative;
+	height: 100%;
+	top: 0px;
+	width: 50px;
+	left: 0px;
+	float: left;
+	background: url('../../images/back_arrow.png') no-repeat;
+	background-position: center;
+	background-size: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.vertical_retroc:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+
+}

@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+
+
+#arryon_house {
+	background-color: #2c5bb3;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#arryn_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#arryn_slogan {
+	padding-bottom: 100px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#baratheon_house {
+	background-color: #e3c704;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#baratheon_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#baratheon_slogan {
+	padding-bottom: 100px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#greyjoy_house {
+	background-color: #000000;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#greyjoy_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#greyjoy_slogan {
+	padding-bottom: 100px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#lannister_house {
+	background-color: #8d0904;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#lannister_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#lannister_slogan {
+	padding-bottom: 100px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#martell_house {
+	background-color: #de890a;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#martell_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#martell_slogan {
+	padding-bottom: 100px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#stark_house {
+	background-color: #ffffff;
+	color: #939393;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#stark_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #939393;
+}
+
+#stark_slogan {
+	padding-bottom: 100px;
+	color: #939393;
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#targaryen_house {
+	background-color: #000;
+	color: #939393;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#targaryen_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #939393;
+}
+
+#targaryen_slogan {
+	padding-bottom: 100px;
+	color: #939393;
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#tully_house {
+	background-color: #a01007;
+	color: #fff;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#tully_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #fff;
+}
+
+#tully_slogan {
+	padding-bottom: 100px;
+	color: #fff;
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+#tyrell_house {
+	background-color: #548205;
+	color: #f8ce06;
+	font-family: "TrajanPro";
+	font-size: 12px;
+	margin: 0px;
+}
+
+#tyrell_title {
+	font-family: "TrajanusBricks";
+	font-size: 50px;
+	color: #f8ce06;
+}
+
+#tyrell_slogan {
+	padding-bottom: 100px;
+	color: #f8ce06;
+	font-size: 25px;
+	font-family: "TrajanPro";
+}
+
+
+
+
+.body_body {
+	margin: 100px;
+	text-align: center;
+	margin-left: 250px;
+}
+
+.house_header {
+	display: inline;
+	font-size: 50px;
+	font-family: "TrajanusBricks";
+	margin: auto;
+}
+
+.house_header img {
+	width: 140px;
+}
+
+.vertical_men {
+	display: inline;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.vertical_banner {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.vertical_banner img {
+	height: 100%;
+}
+
+.vertical_retroc {
+	position: relative;
+	height: 100%;
+	top: 0px;
+	width: 50px;
+	left: 0px;
+	float: left;
+	background: url('../images/back_arrow.png') no-repeat;
+	background-position: center;
+	background-size: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.vertical_retroc:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+
+}

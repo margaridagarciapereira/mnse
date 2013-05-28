@@ -40,7 +40,6 @@ body::-webkit-scrollbar {
 	background-color: rgba(3, 21, 45, 0.4);	
 	right: 0px;
 	overflow: auto;
-
 }
 
 #menu_lateral::-webkit-scrollbar { 

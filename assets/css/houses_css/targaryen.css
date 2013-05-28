@@ -21,7 +21,7 @@
 
 #targaryen_house {
 	background-color: #000;
-	color: #939393;
+	color: #bd200d;
 	font-family: "TrajanPro";
 	font-size: 12px;
 	margin: 0px;
@@ -30,12 +30,12 @@
 #targaryen_title {
 	font-family: "TrajanusBricks";
 	font-size: 50px;
-	color: #939393;
+	color: #bd200d;
 }
 
 #targaryen_slogan {
 	padding-bottom: 100px;
-	color: #939393;
+	color: #bd200d;
 	font-size: 25px;
 	font-family: "TrajanPro";
 }

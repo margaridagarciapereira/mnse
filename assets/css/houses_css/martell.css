@@ -21,7 +21,7 @@
 
 #martell_house {
 	background-color: #de890a;
-	color: #fff;
+	color: #ac080f;
 	font-family: "TrajanPro";
 	font-size: 12px;
 	margin: 0px;
@@ -30,12 +30,12 @@
 #martell_title {
 	font-family: "TrajanusBricks";
 	font-size: 50px;
-	color: #fff;
+	color: #ac080f;
 }
 
 #martell_slogan {
 	padding-bottom: 100px;
-	color: rgba(255, 255, 255, 1.0);
+	color: rgba(172, 8, 15, 1.0);
 	font-size: 25px;
 	font-family: "TrajanPro";
 }

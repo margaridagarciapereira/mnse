@@ -20,8 +20,8 @@
 
 
 #baratheon_house {
-	background-color: #e3c704;
-	color: #fff;
+	background-color: #e3c606;
+	color: #000;
 	font-family: "TrajanPro";
 	font-size: 12px;
 	margin: 0px;
@@ -30,12 +30,12 @@
 #baratheon_title {
 	font-family: "TrajanusBricks";
 	font-size: 50px;
-	color: #fff;
+	color: #000;
 }
 
 #baratheon_slogan {
 	padding-bottom: 100px;
-	color: rgba(255, 255, 255, 1.0);
+	color: rgba(0, 0, 0, 1.0);
 	font-size: 25px;
 	font-family: "TrajanPro";
 }

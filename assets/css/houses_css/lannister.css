@@ -21,7 +21,7 @@
 
 #lannister_house {
 	background-color: #8d0904;
-	color: #fff;
+	color: #e1ac06;
 	font-family: "TrajanPro";
 	font-size: 12px;
 	margin: 0px;
@@ -30,12 +30,12 @@
 #lannister_title {
 	font-family: "TrajanusBricks";
 	font-size: 50px;
-	color: #fff;
+	color: #e1ac06;
 }
 
 #lannister_slogan {
 	padding-bottom: 100px;
-	color: rgba(255, 255, 255, 1.0);
+	color: rgba(225, 172, 6, 1.0);
 	font-size: 25px;
 	font-family: "TrajanPro";
 }

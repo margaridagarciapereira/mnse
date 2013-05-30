@@ -1,24 +1,67 @@
-body {
-	height: 100%;
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
 }
 
-.content {
-	-moz-column-count:3; /* Firefox */
-	-webkit-column-count:3; /* Safari and Chrome */
-	column-count:3;
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+.floatLeft {
+    float: left;
+}
+
+.season1, .season3 {
+    width: 33%
 }
 
 .season1 {
-	float: left;
-	background: black;
-}
-
-.season2 {
-	float: center;
-	background: red;
+    background: white;
+    font-size: 200px;
+    text-align: center;
+    font-family: "TrajanusBricks";
+    word-wrap: break-word;  
+    color: rgba(0, 0, 0, 1.0);
 }
 
 .season3 {
-	float: right;
-	background: white;
+    background: black;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.season2 {
+    background: red;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: 33%;
+    width: 34%;
+}
+
+.season2, .season3 {
+    font-size: 200px;
+    text-align: center;
+    font-family: "TrajanusBricks";
+    word-wrap: break-word;  
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.parent {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }

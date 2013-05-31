@@ -4,9 +4,73 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/seasons.css">
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    
-    <title>Seasons</title>
+    <script type="text/javascript" src="../assets/lib/jquery/jquery-1.6.2.min.js"></script> 
+	<script type="text/javascript" src="../assets/lib/jquery/modernizr.custom.26584.js"></script> 
+	<script type="text/javascript" src="../assets/lib/jquery/swfobject.js"></script> 
+	<script type="text/javascript" src="../assets/lib/js/video_background.js"></script> 
+    <title>Season 3</title>
 </head>
 <body> 
+	<script type="text/javascript">
+		function onClickVertical() {
+			if($("#text").is(":hidden")) {
+				//background_pause();
+				$(".vertical_men").animate({
+					"right": "35%"
+				});
+				$("#plot").animate({
+					"width": "35%"
+				});
+				$("#text").css({
+					"display": "inline"
+				})
+			}
+			else {
+				//background_play();
+				$(".vertical_men").animate({
+					"right": "0%"
+				});
+				$("#plot").animate({
+					"width": "0%"
+				});
+				$("#text").css({
+					"display": "none"
+				})
+			}
+		}
+	</script>
+	<div class="vertical_men">
+		<a href="#" onClick="/*background_pause();*/onClickVertical();return false;">
+			<span class="vertical_retroc"></span>
+		</a>
+	</div>
 
+	<div id="plot">
+		<div id="title"> PLOT </div> </br>
+			<div id="text">
+     	Season 3 spans several months on a world where the seasons can last for years at a time. Autumn has fallen across the world, with winter not far behind. The people should be preparing for years of snow and ice, but the Seven Kingdoms of Westeros instead remain gripped by civil war. Would-be king Renly Baratheon has been assassinated, altering the alliances in the war. The cruel boy-king Joffrey Baratheon has won a great victory by securing an alliance with House Tyrell, with his supporters defeating his uncle Stannis in an epic battle. Joffrey now commands the largest armies in the realm and his triumph appears inevitable.
+King Robb Stark remains in the field, however his homeland, the North, is partially under ironborn occupation. Robb needs to decide on a course of action to win an overall victory. He must also win back the allegiance of House Frey, whom he has offended by breaking his marriage pact to them. King Robb has won every battle he has fought, but as with old King Robert, the Starks will have to see if good soldiers make good kings.
+
+Stannis Baratheon may be defeated and most of his army destroyed or scattered, but he is not out of the fight yet. Having retreated to his headquarters on Dragonstone island with his handful of surviving soldiers, Stannis' status as the last legitimate heir to his older brother Robert still casts a shadow over Joffrey's claim to the throne. With the priestess Melisandre at his side, Stannis can still influence the course of the war by striking where least expected.
+
+The lives of many others still hang in the balance. Bran Stark and his protectors must cross the frozen wastelands of the North to reach the Wall, whilst Arya must brave the war-torn Riverlands in search of her mother and brother. Brienne also has the thankless task of taking the captive Jaime Lannister home across hundreds of miles of battlefields and carnage. Theon Greyjoy must face the consequences of his actions at Winterfell. And in King's Landing both Tyrion Lannister and Sansa Stark must brave the currents of a much more dangerous court in order to survive.
+
+On the eastern continent, Daenerys Targaryen has fled the political viper-pit of Qarth. Her dragons are growing and her fame is spreading, but to take the Iron Throne she will need supporters and an army. Both may be found in the corrupt cities of Slaver's Bay... for a price.
+
+Beyond the Wall, the White Walkers are on the move, threatening both the Seven Kingdoms and the lands of the Free Folk. While the Night's Watch faces the threat of the White Walkers in the field, Jon Snow must infiltrate the wildling army of Mance Rayder and discover the King-Beyond-the-Wall's plans.
+		</div>
+     </div>
+	<script type="text/javascript">
+               jQuery(document).ready(function($) {
+                    $("body").video_background({  format:"472:296", 
+										flv:"../assets/videos/GoTSeason3Trailer.flv" , 
+										formatMobile:"472:296", 
+										flvMobile:"../assets/videos/GoTSeason3Trailer.flv",
+										loop:"true", 
+										autoplay:"true",
+										muted:"false"
+										});
+				
+               });
+     </script>
 </body>

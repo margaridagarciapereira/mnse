@@ -10,7 +10,50 @@
 	<script type="text/javascript" src="../assets/lib/js/video_background.js"></script> 
     <title>Season 1</title>
 </head>
-<body> 
+<body>
+
+	<script type="text/javascript">
+		function onClickVertical() {
+			if($("#text").is(":hidden")) {
+				//background_pause();
+				$(".vertical_men").animate({
+					"right": "30%"
+				});
+				$("#plot").animate({
+					"width": "30%"
+				});
+				$("#text").css({
+					"display": "inline"
+				})
+			}
+			else {
+				//background_play();
+				$(".vertical_men").animate({
+					"right": "0%"
+				});
+				$("#plot").animate({
+					"width": "0%"
+				});
+				$("#text").css({
+					"display": "none"
+				})
+			}
+		}
+	</script>
+	<div class="vertical_men">
+		<a href="#" onClick="/*background_pause();*/onClickVertical();return false;">
+			<span class="vertical_retroc"></span>
+		</a>
+	</div>
+
+	<div id="plot">
+		<div id="title"> PLOT </div> </br>
+			<div id="text">
+     	The cable television series closely follows the multiple story lines of the A Song of Ice and Fire novel series, whose author said that the show's pilot script was very faithful to his work. The series begins with Ned Stark being asked to be the chief advisor (known as the Hand of the King) to King Robert Baratheon. Ned and his wife Catelyn receive a letter from Catelyn's sister, Lysa that gives them reason to believe that rival House Lannister - who the King's wife Cersei belongs to - was the cause of the previous Hand's death. Ned must travel south to help the king and find out who killed the Hand of the King, Jon Arryn, while trying to protect his family from the Lannisters. As he tries to uncover the reasons behind Jon Arryn's death he uncovers the dark secrets about the Lannisters that Arryn himself died trying to expose.
+Meanwhile, across the Narrow Sea in the continent of Essos, the exiled, arrogant Viserys Targaryen, son of the former king whose throne was usurped, believes he still has the rightful claim to the throne. He marries off his younger sister, Daenerys Targaryen, whom he has psychologically and physically abused for years, to the leader of the Dothraki warrior tribe, Khal Drogo, in an exchange for an army to return to Westeros and take the throne. However, Daenerys' growing love for Drogo and newfound mental strength as the Khaleesi of the tribe mean Viserys' plans go unexpectedly and powerfully awry.
+And beyond the wall, Ned's bastard son Jon Snow joins the Night's Watch, an ancient brotherhood sworn to watch over the massive Wall that separates the Seven Kingdoms from the dangerous unknown beyond. But an ancient force, long believed dead, threatens the land.
+		</div>
+     </div>
 	<script type="text/javascript">
                jQuery(document).ready(function($) {
                     $("body").video_background({  format:"472:296", 
@@ -24,4 +67,6 @@
 				
                });
      </script>
+
+
 </body>

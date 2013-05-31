@@ -14,7 +14,7 @@
 	<script type="text/javascript">
 		function onClickVertical() {
 			if($("#text").is(":hidden")) {
-				//background_pause();
+				background_pause();
 				$(".vertical_men").animate({
 					"right": "35%"
 				});
@@ -26,7 +26,7 @@
 				})
 			}
 			else {
-				//background_play();
+				background_play();
 				$(".vertical_men").animate({
 					"right": "0%"
 				});
@@ -40,7 +40,7 @@
 		}
 	</script>
 	<div class="vertical_men">
-		<a href="#" onClick="/*background_pause();*/onClickVertical();return false;">
+		<a href="#" onClick="onClickVertical();return false;">
 			<span class="vertical_retroc"></span>
 		</a>
 	</div>

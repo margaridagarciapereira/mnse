@@ -16,6 +16,9 @@
 		function onClickVertical() {
 			if($("#text").is(":hidden")) {
 				background_pause();
+				$(".vertical_retroc").css({
+					"background-image": "url('../assets/images/forward_arrow.png')"
+				});
 				$(".vertical_men").animate({
 					"right": "30%"
 				});
@@ -28,6 +31,9 @@
 			}
 			else {
 				background_play();
+				$(".vertical_retroc").css({
+					"background-image": "url('../assets/images/back_arrow.png')"
+				});
 				$(".vertical_men").animate({
 					"right": "0%"
 				});

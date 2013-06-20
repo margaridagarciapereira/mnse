@@ -29,6 +29,7 @@
 .season1 {
     background: white;
     font-size: 200px;
+    height: 100%;
     text-align: center;
     font-family: "TrajanusBricks";
     word-wrap: break-word;  
@@ -64,6 +65,10 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+}
+
+.season1 .video video{
+    height: 100%;
 }
 
 #plot {

@@ -27,13 +27,7 @@
 }
 
 .season1 {
-    background: white;
-    font-size: 200px;
     height: 100%;
-    text-align: center;
-    font-family: "TrajanusBricks";
-    word-wrap: break-word;  
-    color: rgba(0, 0, 0, 1.0);
 }
 
 .season3 {
@@ -45,7 +39,6 @@
 }
 
 .season2 {
-    background: red;
     float: right;
     height: 100%;
     position: absolute;

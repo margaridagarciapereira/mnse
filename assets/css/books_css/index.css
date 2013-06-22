@@ -3,3 +3,11 @@ body {
 	background-size: 100%;
 	background-attachment: fixed;
 }
+
+#select_book {
+	margin: 100px;
+	background-color: rgba(250, 250, 250, 0.8);
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}

@@ -2,7 +2,7 @@
     font-family: "TrajanPro";
     src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
 }
-
+z
 @font-face {
     font-family: "TrajanusBricks";
     src: url('../fonts/TrajanusBricks.ttf') format("truetype");
@@ -19,22 +19,112 @@
 }
 
 body {
-	margin: 0px;
-	height: 100%;
-	width: 200%;
-	position: relative;
-	float: left;
-	display: inline;
-	overflow: auto;
-	overflow-x: scroll;
-    overflow-y: scroll;
+	margin: auto;
 }
 
 body::-webkit-scrollbar { 
     display: none; 
 }
 
-img {
+body a {
+	text-align: center;
+	display:block;
+	width: 100%;
+}
+
+#retroceder {
+	width: 150px;
 	height: 100%;
-	float: left;
+	position: fixed;
+	left: 0px;
+	background: url('../../images/back_arrow.png') no-repeat;
+	background-position: center;
+	background-size: 25%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#retroceder:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#arryn_menu {
+	background-color: #2c5bb3;
+}
+
+#arryn_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#baratheon_menu {
+	background-color: #e3c606;
+}
+
+#baratheon_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#greyjoy_menu {
+	background-color: #000;
+}
+
+#greyjoy_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#lannister_menu {
+	background-color: #890806;
+}
+
+#lannister_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#martell_menu {
+	background-color: #de890a;
+}
+
+#martell_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#stark_menu {
+	background-color: #FFF;
+}
+
+#stark_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#targaryen_menu {
+	background-color: #000;
+}
+
+#targaryen_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#tully_menu {
+	background-color: #a01007;
+}
+
+#tully_menu img{
+	height: 150px !important;
+	margin: auto;
+}
+
+#tyrell_menu {
+	background-color: #4e850d;
+}
+
+#tyrell_menu img{
+	height: 150px !important;
+	margin: auto;
 }

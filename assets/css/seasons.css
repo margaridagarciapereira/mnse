@@ -18,6 +18,31 @@
     src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
 }
 
+.season1_title {
+    z-index: 1;
+    position: absolute;
+    left: 12%
+    top: 5%;
+}
+
+.season2_title {
+    z-index: 1;
+    position: absolute;
+    left: 45%
+    top: 5%;
+}
+
+.season3_title {
+    z-index: 1;
+    position: absolute;
+    right: 12%
+    top: 5%;
+}
+
+html, body {
+    height: 100%;
+}
+
 .floatLeft {
     float: left;
 }
@@ -31,7 +56,6 @@
 }
 
 .season3 {
-    background: black;
     float: right;
     height: 100%;
     position: absolute;
@@ -46,23 +70,14 @@
     width: 34%;
 }
 
-.season2, .season3 {
-    font-size: 200px;
-    text-align: center;
-    font-family: "TrajanusBricks";
-    word-wrap: break-word;  
-    color: rgba(255, 255, 255, 1.0);
-}
-
 .parent {
     overflow: hidden;
     position: relative;
     width: 100%;
-}
-
-.season1 .video video{
     height: 100%;
 }
+
+//css for season1, season2 and season3
 
 #plot {
     position: fixed;

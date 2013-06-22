@@ -39,13 +39,25 @@ body {
 }
 
 .image1 {
-    left: 5%;
-    top: 12%;
+    margin-left: 50px;
+    margin-top: 60px;
     position: absolute;
 }
 
 .image2 {
-    right: 5%;
-    top: 12%;
+    margin-left: 1350px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.image3 {
+    margin-left: 50px;
+    margin-top: 500px;
+    position: absolute;
+}
+
+.image4 {
+    margin-left: 1350px;
+    margin-top: 500px;
     position: absolute;
 }

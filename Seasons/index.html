@@ -9,8 +9,13 @@
 </head>
 <body>
     
-	<div class="parent">
+    <div id="back">
+        <a href="" onClick="window.history.back(-1); return false;">
+            <img alt="go back" src="../assets/images/back.png">
+        </a>
+    </div>
 
+	<div class="parent">
     	<div class="season1 floatLeft">
             <video muted loop width="auto" height="100%" autoplay="autoplay" onclick="window.location.href = 'season1.html'; return false;">
                 <source src="../assets/videos/S01.mp4" type="video/mp4" />

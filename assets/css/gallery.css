@@ -61,3 +61,17 @@ body {
     right: 1%;
     top: 12%;
 }
+
+#back {
+    background-color: rgba(3, 21, 45, 0.4);
+    width:200px;
+    margin-top: 40%;
+    margin-left: 45%;
+    z-index: 1;
+    position: absolute;
+}
+
+#back img{
+    display: block;
+    margin:auto;
+}

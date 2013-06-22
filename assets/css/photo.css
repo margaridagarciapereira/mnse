@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background: url('../images/game-of-thrones-crown.jpg') no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+#title {
+    font-family: "TrajanusBriX-Invers";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.caption {
+    color: white;
+    text-align: center;
+    font-family: "TrajanPro";
+    font-size: 30px;
+    font-family: "TrajanusBriX-Invers";
+}
+
+.image1 {
+    left: 5%;
+    top: 12%;
+    position: absolute;
+}
+
+.image2 {
+    right: 5%;
+    top: 12%;
+    position: absolute;
+}

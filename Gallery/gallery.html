@@ -14,6 +14,8 @@
 		image3.src = "../assets/images/Map_of_Ice_and_Fire.jpg"
 		var image4 = new Image()
 		image4.src = "../assets/images/Books/background.png"
+		var image5 = new Image()
+		image5.src = "../assets/images/game-of-thrones-crown.jpg"
 	</script>
     <title>Gallery</title>
 </head>
@@ -40,7 +42,7 @@
         function slideit()
         {
             document.images.slide.src = eval("image"+step+".src");
-            if(step<4)
+            if(step<5)
                 step++;
             else
                 step=1;

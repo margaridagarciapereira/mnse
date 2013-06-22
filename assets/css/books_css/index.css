@@ -5,9 +5,21 @@ body {
 }
 
 #select_book {
-	margin: 100px;
-	background-color: rgba(250, 250, 250, 0.8);
-	width: 100px;
-	height: 100px;
 	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: rgba(250, 250, 250, 0.8);
+	width: 80%;
+	height: 100%;
+}
+
+a{
+	margin: 50px;
+}
+
+#select_book img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin: auto;
+	display: block;
 }

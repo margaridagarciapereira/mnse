@@ -53,31 +53,31 @@ body {
 }
 
 .image1 {
-    margin-left: 50px;
-    margin-top: 60px;
+    margin-left: 5%;
+    margin-top: 3%;
     position: absolute;
 }
 
 .image2 {
-    margin-left: 1350px;
-    margin-top: 60px;
+    margin-left: 65%;
+    margin-top: 3%;
     position: absolute;
 }
 
 .image3 {
-    margin-left: 50px;
-    margin-top: 500px;
+    margin-left: 5%;
+    margin-top: 30%;
     position: absolute;
 }
 
 .image4 {
-    margin-left: 1350px;
-    margin-top: 500px;
+    margin-left: 65%;
+    margin-top: 30%;
     position: absolute;
 }
 
 .image5 {
-    margin-left: 50px;
-    margin-top: 940px;
+    margin-left: 5%;
+    margin-top: 57%;
     position: absolute;
 }

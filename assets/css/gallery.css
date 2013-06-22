@@ -31,3 +31,33 @@ body {
     font-size: 700%;
     left: 30%;
 }
+
+#photos {
+    position: absolute;
+    font-family: "TrajanusBricks";
+    color: white;
+    font-size: 400%;
+    left: 5%;
+    top: 3%;
+}
+
+#videos {
+    position: absolute;
+    font-family: "TrajanusBricks";
+    color: white;
+    font-size: 400%;
+    right: 5%;
+    top: 3%;
+}
+
+#photoslideshow {
+    position: absolute;
+    left: 1%;
+    top: 12%;
+}
+
+#videoslideshow {
+    position: absolute;
+    right: 1%;
+    top: 12%;
+}

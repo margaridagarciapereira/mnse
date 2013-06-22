@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background: url('../images/game-of-thrones-crown.jpg') no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+#back {
+    background-color: rgba(3, 21, 45, 0.4);
+    width:200px;
+    margin-top: 40%;
+    margin-left: 45%;
+    z-index: 1;
+    position: absolute;
+}
+
+#back img{
+    display: block;
+    margin:auto;
+}
+
+#title {
+    font-family: "TrajanusBriX-Invers";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.caption {
+    color: white;
+    text-align: center;
+    font-family: "TrajanPro";
+    font-size: 30px;
+    font-family: "TrajanusBriX-Invers";
+}
+
+.video1 {
+    margin-left: 50px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.video2 {
+    margin-left: 700px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.video3 {
+    margin-left: 1350px;
+    margin-top: 100px;
+    position: absolute;
+}

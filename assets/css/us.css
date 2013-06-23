@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url('../fonts/TrajanPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricks";
+    src: url('../fonts/TrajanusBricks.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBricksXtra";
+    src: url('../fonts/TrajanusBricksXtra.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "TrajanusBriX-Invers";
+    src: url('../fonts/TrajanusBriX-Invers.ttf') format("truetype");
+}
+
+body {
+	background: url('../images/Feup_jardim.png') no-repeat fixed;
+	background-size: cover;
+}
+
+#content {
+	position: absolute;
+	top: 5%; 
+	left: 5%;
+	font-family: "TrajanusBriX-Invers";
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}

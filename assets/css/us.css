@@ -32,3 +32,37 @@ body {
 	font-size: 50px;
 	text-align: center;
 }
+
+table {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+    width: 90%;
+}
+
+td {
+    width: 45%;
+	text-align: center;
+}
+
+.caption {
+    color: white;
+    text-align: center;
+    font-family: "TrajanPro";
+    font-size: 30px;
+    font-family: "TrajanusBriX-Invers";
+}
+
+#back {
+    background-color: rgba(3, 21, 45, 0.4);
+    width:200px;
+    margin-top: 20%;
+    margin-left: 45%;
+    z-index: 1;
+    position: absolute;
+}
+
+#back img{
+    display: block;
+    margin:auto;
+}

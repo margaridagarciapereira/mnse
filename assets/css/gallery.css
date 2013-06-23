@@ -20,58 +20,46 @@
 
 body {
 	background: url('../images/gallery-background.jpg') no-repeat fixed;
-	background-size: cover;
+	background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
-#title {
-    background-color: rgba(3, 21, 21, 0.6);
-    position: absolute;
+h1 {
     font-family: "TrajanusBricks";
-    color: white;
-    font-size: 700%;
-    left: 30%;
+    font-size: 50px;
+    color: #fff;
 }
 
-#photos {
-    position: absolute;
-    font-family: "TrajanusBricks";
-    color: white;
-    font-size: 400%;
-    left: 5%;
-    top: 3%;
+h2 {
+    font-family: "TrajanPro";
+    font-size: 30px;
+    color: #fff;
 }
 
-#videos {
-    position: absolute;
-    font-family: "TrajanusBricks";
-    color: white;
-    font-size: 400%;
-    right: 5%;
-    top: 3%;
+table {
+    width: 100%;
+    text-align: center;
 }
 
-#photoslideshow {
-    position: absolute;
-    left: 1%;
-    top: 12%;
+td {
+    width: 50%;
 }
 
-#videoslideshow {
-    position: absolute;
-    right: 1%;
-    top: 12%;
+#retroceder {
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: url('../images/back_arrow.png') no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-#back {
-    background-color: rgba(3, 21, 45, 0.4);
-    width:200px;
-    margin-top: 40%;
-    margin-left: 45%;
-    z-index: 1;
-    position: absolute;
-}
+#retroceder:hover {
+    background-color: rgba(255, 255, 255, 0.7);
 
-#back img{
-    display: block;
-    margin:auto;
 }

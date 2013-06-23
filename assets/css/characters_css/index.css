@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	margin-left:50px;
+	background-color: #000;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+	width: 33.1%;
+	display: inline;
+
+	opacity:0.4;
+	filter:alpha(opacity=40); 
+}
+
+img:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+a {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#retroceder {
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	background: url('../../images/back_arrow.png') no-repeat;
+	background-position: center;
+	background-size: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#retroceder:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+
+}

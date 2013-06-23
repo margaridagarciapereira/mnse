@@ -21,6 +21,19 @@
 body {
 	background: url('../images/game-of-thrones-crown.jpg') no-repeat fixed;
 	background-size: 100% 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "TrajanusBricks";
+    font-size: 50px;
+    color: #fff;
+}
+
+h2 {
+    font-family: "TrajanPro";
+    font-size: 30px;
+    color: #fff;
 }
 
 #back {
@@ -80,4 +93,29 @@ body {
     margin-left: 50px;
     margin-top: 940px;
     position: absolute;
+}
+
+#retroceder {
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: url('../images/back_arrow.png') no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#retroceder:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%;
 }

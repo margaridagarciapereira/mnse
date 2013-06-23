@@ -20,7 +20,7 @@
 
 body {
 	background: url('../images/gallery-background.jpg') no-repeat fixed;
-	background-size: 100%;
+	background-size: 100% 100%;
     margin: 0px;
     padding: 0px;
     text-align: center;
